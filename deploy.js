@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
- 'exhibit pride hold spy ask firm easy panther runway thumb one purpose',
- 'https://ropsten.infura.io/UQXTaan7AZ5i9yU5aSga'
+ 'metamask mnemonic phrase',
+ 'https://ropsten.infura.io/UQXTaan7AZ'
 );
 
 const web3 = new Web3(provider);
